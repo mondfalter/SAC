@@ -3,7 +3,7 @@
     template.innerHTML = `
     <form id="form">
         <fieldset>
-            <legend>Text von Hello World!</legend>
+            <legend>Text von Hello World2!</legend>
             <table>
                 <tr>
                     <td>Text</td>
