@@ -29,11 +29,6 @@
 			"type": "string",
 			"description": "The text to be displayed in the widget",
 			"default" : "Hello World"
-		},
-		"widgetText2": {
-			"type": "string",
-			"description": "Another Text",
-			"default" : "No Hello's"
 		}
 	},
 	"methods": {
