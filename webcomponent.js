@@ -3,7 +3,7 @@
     tmpl.innerHTML = `
     `;
 
-    customElements.define('com-sap-sample-helloworld2', class HelloWorld1 extends HTMLElement {
+    customElements.define('com-sap-sample-helloworld3', class HelloWorld1 extends HTMLElement {
 
 
 		constructor() {
@@ -13,7 +13,7 @@
             this._firstConnection = false;
             this._tagContainer;
             this._tagType = "h1";
-            this._tagText = "Hello World V2"
+            this._tagText = "Hello World V3"
 		}
 
 
