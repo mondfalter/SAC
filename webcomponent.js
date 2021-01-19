@@ -12,7 +12,7 @@
             this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
             this._firstConnection = false;
             this._tagContainer;
-            this._tagtype = "h1";
+            this._tagType = "h1";
             this._tagText = "Hello World V2"
 		}
 
