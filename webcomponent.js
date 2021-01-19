@@ -52,7 +52,14 @@
         
         }
         */
+        //Getters and Setters
+        get widgetText() {
+            return this._tagText;
+        }
 
+        set widgetText(value) {
+            this._tagText = value;
+        }
         redraw(){
                 if (this._tagContainer){
                     this._tagContainer.parentNode.removeChild(this._tagContainer);
