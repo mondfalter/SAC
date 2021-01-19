@@ -54,7 +54,6 @@
         */
 
         redraw(){
-            if (this._tagText != null){
                 if (this._tagContainer){
                     this._tagContainer.parentNode.removeChild(this._tagContainer);
                 }
@@ -63,7 +62,6 @@
                 var theText = document.createTextNode(this._tagText);    
                 this._tagContainer.appendChild(theText); 
                 this._shadowRoot.appendChild(this._tagContainer);
-            }
         }
     
     
